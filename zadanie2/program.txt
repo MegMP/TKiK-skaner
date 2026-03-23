@@ -1,0 +1,36 @@
+// Program testowy
+
+int count = 10;
+float pi = 3.14;
+string message = "Hello World";
+
+if (count > 0) {
+    while (count > 0) {
+        count = count - 1;
+        print("Count: " + count);
+    }
+} else {
+    print("Nothing to do");
+}
+
+// pętla for
+for (i = 0; i < 5; i = i + 1) {
+    print("i = " + i);
+}
+
+a = 5 + 3 * 2;
+b = (a - 4) / 2;
+
+if (a == b) {
+    print("a equals b");
+} else {
+    print("a not equal b");
+}
+
+myVariable = 100;
+another_var = myVariable + 50;
+
+text = "Test";
+text2 = "Liczba: " + 123;
+
+
